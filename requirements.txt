@@ -1,0 +1,20 @@
+# TradeGuard Core Pipeline — Dependencies
+# Python 3.12 (matches tariffai venv)
+
+# ── LangGraph (the orchestration brain) ──
+langgraph>=0.4.0
+langchain-core>=0.3.0
+
+# ── FastAPI (HTTP endpoints) ──
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# ── HTTP client (for calling Month 1 services) ──
+requests>=2.31.0
+
+# ── Environment config ──
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# ── Testing ──
+pytest>=7.0.0
